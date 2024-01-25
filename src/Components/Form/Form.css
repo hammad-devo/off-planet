@@ -1,0 +1,400 @@
+.main_bg {
+    background-image: url("../../Assets/Images/form_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+textarea{
+    font-family:"Grimnotes Alternate Demo" !important;
+}
+.alert{
+    position: absolute!important;
+    top: 10px !important;
+    width: auto !important;
+    right: 10px!important ;
+    background-color: rgba(35, 217, 165, 0.85) !important;
+    border: none !important;
+    z-index: 2000;
+}
+.bullets-lists {
+justify-content: center !important;
+align-items: center !important;
+}
+.bullets-lists input{
+    justify-content: center;
+    align-items: center;
+    height: 20px!important;
+    bottom: 5px !important;
+    color: cadetblue;
+    }
+
+.star_main_bg {
+    background-image: url("../../Assets/Images/stars.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.star_main_bg .image-container{
+height: 20%;
+}
+.main_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+
+}
+.background_2{
+    height: 80%!important;
+}
+.logo_container {
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.logo_container img {
+    width: 100%;
+    max-width: 350px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+.personal_form {
+    padding: 20px 40px;
+    padding-bottom: 50px;
+    width: 100%;
+    max-width: 750px;
+    background: rgba(35, 217, 165, 0.85);
+    border: 5px solid #000000;
+    border-radius: 100px;
+    position: relative;
+}
+
+.personal_form form h5 {
+    text-align: center;
+    font-size: 4vw;
+    font-family: "Grimnotes Alternate Demo";
+    color: #000000;
+}
+
+.personal_form form label {
+    font-size: 3vw;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-family: "Grimnotes Demo";
+    color: #000000;
+}
+
+.personal_form form input {
+    background-color: transparent;
+    border: none;
+    font-size: 3vw;
+    border-bottom: 5px solid #000000;
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+    padding: 0px 20px;
+    max-width: 295px !important;
+}
+
+.personal_form form textarea {
+    background-color: transparent;
+    border: none;
+    font-size: 2vw;
+    border-bottom: 5px solid #000000;
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+    padding: 0px 20px;
+    max-width: 295px !important;
+}
+
+.personal_form form input:focus {
+    outline: none;
+}
+
+.personal_form form textarea:focus {
+    outline: none;
+}
+.input_container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.personal_form #lastname_colon {
+    position: relative;
+    left: -30px;
+}
+
+.personal_form span {
+    font-size: 3vw;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+    padding: 5px 40px;
+}
+
+.btn_container button {
+    padding: 5px 50px;
+    margin-top: 10px;
+    border: none;
+    font-size: 2vw;
+    background-color: transparent;
+    border-radius: 20px;
+    font-family: "Grimnotes Alternate Demo";
+    font-weight: bold;
+    border: 3px solid #000000;
+}
+
+/* Form 2 */
+
+.background_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    background-position: top left;
+    position: absolute;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.chris_rock_form h5 {
+    padding-top: 30px;
+}
+
+.bullet_list {
+  
+    font-size: 4vw;
+    margin-top: 20px;
+}
+
+.artist_container {
+    width: 100%;
+    text-align: center;
+}
+
+.artist_container input {
+    display: flex !important;
+    padding-top: 20px;
+    margin: 0 auto !important;
+    width: 100% !important;
+    max-width: 500px !important;
+}
+
+.artist_container p {
+    font-size: 4vw;
+    font-family: "Grimnotes Alternate Demo";
+}
+
+.ufo_container {
+    background-image: url("../../Assets/Images/ufo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    max-height: 100px;
+    width: 100%;
+    max-width: 300px;
+    left: 20%;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+    top: 110%;
+}
+
+.stuburn {
+    background-image: url("../../Assets/Images/saturn.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 100%;
+    max-height: 300px;
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+    right: 0;
+    top: 60%;
+    left: 86%;
+    bottom: 0;
+}
+
+/* step 2 */
+
+.music_personality_bg {
+    position: relative;
+}
+
+.music_personality_bg img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+}
+
+.pilot_bg {
+    background-image: url("../../Assets/Images/pilot.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25vh;
+    bottom: 17px;
+    position: absolute;
+    z-index: 20;
+}
+
+/* step 3 */
+
+.taco_sandwich_bg {
+    background-image: url("../../Assets/Images/tacos_sandwich_bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* step 4 */
+
+.moon_container img {
+    width: 100%;
+    max-width: 150px;
+    object-fit: cover;
+}
+
+.breaking_star_container img {
+    width: 100%;
+    max-width: 500px;
+    object-fit: cover;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.black_bg {
+    background-image: url("../../Assets/Images/step-04-black-bg.png");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.green_garden {
+    background-image: url("../../Assets/Images/step-04-garden.png");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 21px;
+    z-index: 10;
+    
+    height: 25vh;
+}
+
+.step_boy_04 img {
+    width: 100%;
+    max-width: 221px;
+    object-fit: contain;
+    position: absolute;
+    left: 38%;
+}
+
+/* step 5 */
+.step_05_child{
+    width: 100%;
+    max-width: 303px;
+    position: absolute;
+    bottom: 5px;
+    z-index: 200;
+    left: 37%;
+
+}
+.step_05_bg {
+    background-image: url("../../Assets/Images/step-05_bg.png");
+    background-size: cover;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.step_05_bg img {
+    max-width: 200px;
+    position: absolute;
+    top: 0;
+    left: 43%;
+    top: 70%;
+    z-index: 999999;
+}
+
+/* step -06 */
+
+.step_06_bg {
+    background-image: url("../../Assets/Images/step-06-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.alien img {
+    max-width: 80px;
+    position: absolute;
+    right: 0;
+    left: 720px;
+    bottom: 80px;
+}
+
+.step_girl_06 {
+    position: absolute;
+    right: 0px;
+}
+
+.step_girl_06 .step_girl1 {
+   width: 120px;
+}
+.step_girl_06 .step_girl2 {
+    width: 230px;
+    position: absolute;
+    left: 68%;
+    bottom: -152px;
+ }
+ 
+
+/* step -07 */
+
+.step_07_bg {
+    background-image: url("../../Assets/Images/step-07-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.btn-red {
+    background: #8f0000 !important;
+    color: #fff !important;
+    border: 43px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

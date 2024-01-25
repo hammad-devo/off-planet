@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Grimnotes Alternate Demo';
+    src: url('./Assets/CustomFont/Grimnotes\ Alternate\ Demo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Grimnotes Demo';
+    src: url('./Assets/CustomFont/Grimnotes\ Demo.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    font-size:2vw!important;
+    font-family: 'Grimnotes Alternate Demo';
+}
